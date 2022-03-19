@@ -1,0 +1,29 @@
+.filterWrapper {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 15px;
+}
+.filterActivity {
+  display: none;
+  justify-content: space-between;
+  color: white;
+}
+@media (min-width: 890px) {
+  .filterActivity {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    gap: 10px;
+  }
+  .filterWrapper {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 15px;
+    gap: 8px;
+  }
+  .visibileFilters {
+    display: none;
+  }
+}

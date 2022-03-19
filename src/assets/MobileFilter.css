@@ -1,0 +1,9 @@
+.mobilefilterActivity {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 15px;
+    background-color: #25273C !important;
+    border-radius: 6px;
+    margin-top: 20px;
+}

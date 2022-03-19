@@ -1,0 +1,17 @@
+@font-face {
+    font-family: todoHeader;
+    src: url(../Fonts/static/JosefinSans-Medium.ttf);
+  }
+
+.header {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    
+}
+.header h2 {
+    font-family: todoHeader !important;
+    font-size: 24px;
+    letter-spacing: 5px;
+}
